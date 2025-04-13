@@ -1,0 +1,146 @@
+body {
+    background: #ECF4FF;
+}
+
+.container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem {
+    width: clamp(37rem, 30vw, 80rem);
+    height: auto;
+  display: block;
+}
+
+h1 {
+    color: #455469;
+    font-size: clamp(2rem, 2vw, 4rem);
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.btnPrimary {
+    border-radius: 0.25rem;
+    background: linear-gradient(119deg, #9FDE2A 0%, #C3E52C 100%);
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(165, 223, 43, 0.40);
+    width: clamp(7.5rem, 6vw, 9rem);
+    height: clamp(2rem, 1.4vw, 4rem);
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: clamp(0.85rem, 0.8vw, 1.2rem);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+}
+
+.btnPrimary:hover {
+    background: linear-gradient(119deg, #C3E52C 0%, #9FDE2A 100%);
+}
+
+form {
+    margin-bottom: 3.25rem;
+    display: flex;
+    gap: clamp(1rem, 1vw, 2rem);
+}
+
+form input {
+    width: clamp(10rem, 10vw, 20rem);
+    height: clamp(2rem, 1.4vw, 4rem);
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    background: #FFF;
+    /* shadow input */
+    box-shadow: 0px 8px 16px 0px rgba(76, 139, 255, 0.10);
+    border: none;
+    padding: 0.5rem;
+}
+
+table {
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    line-height: normal;
+    width: clamp(29.8125rem, 25vw, 40rem);
+
+    thead {
+        color: #455469;
+        font-weight: 800;
+    }
+    tbody {
+        color: #6F839E;
+        font-weight: 700;
+    }
+    
+    tr {
+        padding: 0  5.56rem;
+    }
+
+    td, th {
+        border-bottom: 1px solid #BFCEE2;
+        padding: 0.5rem  0;
+        text-align: center;
+    }
+    
+}
+    
+
+
+
+
+
+
+/* Reset CSS simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
